@@ -1,0 +1,37 @@
+body, html{
+    height:100%;
+    margin:0;
+}
+.bg{
+    /* background :darkgreen; */
+    background-image: url("../images/counter.jpg");
+    height:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.center{
+    text-align: center;
+}
+
+/* .btn{
+    width:7%;
+    
+} */
+.btn-outline-primary {
+    margin:8px;
+    /* padding: 0px 15px 0px 15px; */
+    border-color: white;
+  }
+  .btn:focus, .btn.focus {
+    outline: 0;
+    box-shadow: 0 0 0 0rem rgba(255, 255, 255, 0.25);
+  }
+  .btn-outline-success{
+    border-color: white;
+  }
+
+  .btn-danger {
+    margin:8px;
+    /* padding: 0px 15px 0px 15px; */
+  }
